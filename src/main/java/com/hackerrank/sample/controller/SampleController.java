@@ -66,7 +66,7 @@ public class SampleController {
 		}  
 		
 		
-		@CrossOrigin
+		/*@CrossOrigin
 		@GetMapping("/sort/price")  
 		private ResponseEntity<SortedProducts[]> sorted_books()   
 		{  
@@ -86,7 +86,7 @@ public class SampleController {
 	    return new ResponseEntity<SortedProducts[]>(HttpStatus.NOT_FOUND);
 				}
 			
-		}  
+		}  */
 		
 		
 	
