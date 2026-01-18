@@ -34,7 +34,7 @@ public class SampleController {
 		private ResponseEntity< ArrayList<FilteredProducts> > filtered_books(@PathVariable("initial_price") int init_price , @PathVariable("final_price") int final_price)   
 		{  
 
-public ResponseEntity<FilteredProducts>filtered_books(
+/*public ResponseEntity<FilteredProducts>filtered_books(
 			
 			@PathVariable("initial_price") int initial_price,
 			@PathVariable("final_price") int final_price {
@@ -46,7 +46,7 @@ public ResponseEntity<FilteredProducts>filtered_books(
 			int price = product.getInt("price");
 		}
 			}
-);
+);*/
 			
 			try {
 				
