@@ -33,6 +33,20 @@ public class SampleController {
 		@GetMapping("/filter/price/{initial_price}/{final_price}")  
 		private ResponseEntity< ArrayList<FilteredProducts> > filtered_books(@PathVariable("initial_price") int init_price , @PathVariable("final_price") int final_price)   
 		{  
+
+public ResponseEntity<FilteredProducts>filtered_books(
+			
+			@PathVariable("initial_price") int initial_price,
+			@PathVariable("final_price") int final_price {
+	try {
+		List<String> filteredBarcodes = new ArrayList<>();
+
+		for(int i=0; i < data.length(); i++){
+			JSONObbject product = data.getJSONObject(i);
+			int price = product.getInt("price");
+		}
+			}
+);
 			
 			try {
 				
